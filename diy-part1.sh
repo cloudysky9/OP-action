@@ -33,3 +33,5 @@ svn co https://github.com/ophub/luci-app-amlogic/trunk/luci-app-amlogic package/
 svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/luci-app-openclash
 #aliyun
 #svn co https://github.com/messense/aliyundrive-webdav/trunk/openwrt package/luci-app-aliyundrive
+#bypass
+svn co https://github.com/cloudysky9/openwrt-packages/trunk/luci-app-bypass package/luci-app-bypass
