@@ -32,3 +32,5 @@ git clone https://github.com/lisaac/luci-app-dockerman.git package/luci-app-dock
 svn co https://github.com/ophub/luci-app-amlogic/trunk/luci-app-amlogic package/luci-app-amlogic
 #openclash
 svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/luci-app-openclash
+#aliyun
+svn co https://github.com/messense/aliyundrive-webdav/trunk/openwrt package/luci-app-aliyundrive-webdav
