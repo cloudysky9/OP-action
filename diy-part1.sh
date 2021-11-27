@@ -35,3 +35,6 @@ svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/l
 #svn co https://github.com/messense/aliyundrive-webdav/trunk/openwrt package/luci-app-aliyundrive
 #bypass
 #svn co https://github.com/cloudysky9/openwrt-packages/trunk/luci-app-bypass package/luci-app-bypass
+#appstore
+svn co https://github.com/cloudysky9/openwrt-packages/trunk/app-store-ui package/app-store-ui
+svn co https://github.com/cloudysky9/openwrt-packages/trunk/luci-app-store package/luci-app-store
