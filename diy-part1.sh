@@ -38,3 +38,6 @@ svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/l
 #appstore
 svn co https://github.com/cloudysky9/openwrt-packages/trunk/app-store-ui package/app-store-ui
 svn co https://github.com/cloudysky9/openwrt-packages/trunk/luci-app-store package/luci-app-store
+#临时docker问题解决
+rm -rf ./feeds/packages/utils/runc/Makefile
+svn export https://github.com/openwrt/packages/trunk/utils/runc/Makefile ./feeds/packages/utils/runc/Makefile
