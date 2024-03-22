@@ -35,5 +35,3 @@ git clone https://github.com/lisaac/luci-app-dockerman.git package/luci-app-dock
 svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/luci-app-openclash
 #aliyun
 #svn co https://github.com/messense/aliyundrive-webdav/trunk/openwrt package/luci-app-aliyundrive
-#bypass
-svn co https://github.com/cloudysky9/openwrt-packages/trunk/luci-app-bypass package/luci-app-bypass
