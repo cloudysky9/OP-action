@@ -14,24 +14,25 @@
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # 添加feed源
-#sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
-#sed -i '$a src-git kenzok https://github.com/kenzok8/openwrt-packages' feeds.conf.default
-#sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
+sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
+sed -i '$a src-git kenzok https://github.com/kenzok8/openwrt-packages' feeds.conf.default
+sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
+sed -i 'src-git third_party https://github.com/linkease/istore-packages;main' feeds.conf.default
+sed -i 'src-git diskman https://github.com/jjm2473/luci-app-diskman;dev' feeds.conf.default
+sed -i 'src-git oaf https://github.com/jjm2473/OpenAppFilter;dev4' feeds.conf.default
+sed -i 'src-git linkease_nas https://github.com/linkease/nas-packages;master' feeds.conf.default
+sed -i 'src-git linkease_nas_luci https://github.com/linkease/nas-packages-luci;main' feeds.conf.default
+sed -i 'src-git jjm2473_apps https://github.com/jjm2473/openwrt-apps;main' feeds.conf.default
 # 扩充插件包
-git clone https://github.com/cloudysky9/helloworld.git package/luci-app-helloworld
-git clone https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxminddb
-git clone https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr
 git clone https://github.com/xiaorouji/openwrt-passwall.git package/luci-app-passwall
 git clone https://github.com/rosywrt/luci-theme-rosy.git package/luci-theme-rosy
 rm -rf package/lean/luci-theme-argon
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
 git clone https://github.com/jerrykuku/luci-app-argon-config.git package/luci-app-argon-config
-#git clone https://github.com/lisaac/luci-app-dockerman.git package/luci-app-dockerman
-#晶晨宝盒
-svn co https://github.com/ophub/luci-app-amlogic/trunk/luci-app-amlogic package/luci-app-amlogic
+git clone https://github.com/lisaac/luci-app-dockerman.git package/luci-app-dockerman
 #openclash
 svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/luci-app-openclash
 #aliyun
 #svn co https://github.com/messense/aliyundrive-webdav/trunk/openwrt package/luci-app-aliyundrive
 #bypass
-#svn co https://github.com/cloudysky9/openwrt-packages/trunk/luci-app-bypass package/luci-app-bypass
+svn co https://github.com/cloudysky9/openwrt-packages/trunk/luci-app-bypass package/luci-app-bypass
