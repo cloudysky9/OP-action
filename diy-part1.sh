@@ -24,6 +24,7 @@ sed -i 'src-git linkease_nas https://github.com/linkease/nas-packages;master' fe
 sed -i 'src-git linkease_nas_luci https://github.com/linkease/nas-packages-luci;main' feeds.conf.default
 sed -i 'src-git jjm2473_apps https://github.com/jjm2473/openwrt-apps;main' feeds.conf.default
 # 扩充插件包
+git clone https://github.com/fw876/helloworld.git package/helloworld
 git clone https://github.com/xiaorouji/openwrt-passwall.git package/luci-app-passwall
 git clone https://github.com/rosywrt/luci-theme-rosy.git package/luci-theme-rosy
 rm -rf package/lean/luci-theme-argon
