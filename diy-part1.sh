@@ -31,7 +31,5 @@ rm -rf package/lean/luci-theme-argon
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
 git clone https://github.com/jerrykuku/luci-app-argon-config.git package/luci-app-argon-config
 git clone https://github.com/lisaac/luci-app-dockerman.git package/luci-app-dockerman
-#openclash
-svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/luci-app-openclash
 #aliyun
 #svn co https://github.com/messense/aliyundrive-webdav/trunk/openwrt package/luci-app-aliyundrive
